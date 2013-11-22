@@ -1,0 +1,15 @@
+$(document).ready(function(){
+  $("#main-content").load("intro.html");
+  $("#intro").click(function(){
+    $("#main-content").load("intro.html");
+  });
+  $("#portfolio").click(function(){
+    $("#main-content").load("portfolio.html");
+  });
+  $("#resume").click(function(){
+    $("#main-content").load("resume.html");
+  });
+  $("#contact").click(function(){
+    $("#main-content").load("contact.html");
+  });
+});
