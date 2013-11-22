@@ -1,0 +1,10 @@
+{
+  "name": "SF Weather by Neighborhood",
+  "description": "Because San Francisco can never make up her mind.  This app reports weather by neighborhood in the SF Bay Area.",
+  "version": "0.1",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+}
