@@ -10,47 +10,48 @@
     </head>
 
     <body>   
-      <h3>SF Weather by Neighborhood</h3>
+      <div id="search">
+        <h3>SF Weather by Neighborhood</h3>
       
-      Type in your zipcode: 
-        <input id="search" type="text">
-        <br>
-        <br> 
-      Or choose a neighborhood:
-      <select id="neighborhood">
-        <option></option>
-        <option value="Bayview">Bayview</option>
-        <option value="Bernal Heights">Bernal Heights</option>
-        <option value="Castro">Castro</option>
-        <option value="Haight">Haight</option>
-        <option value="Marina">Marina</option>
-        <option value="Mission">Mission</option>
-        <option value="Nob Hill">Nob Hill</option>
-        <option value="Noe Valley">Noe Valley</option>
-        <option value="NOPA">NOPA</option>
-        <option value="North Beach">North Beach</option>
-        <option value="Pacific Heights">Pacific Heights</option>
-        <option value="Potrero Hill">Potrero Hill</option>
-        <option value="Presidio">Presidio</option>
-        <option value="Richmond(inner)">Richmond(inner)</option>
-        <option value="Richmond(outer)">Richmond(outer)</option>
-        <option value="SOMA">SOMA</option>
-        <option value="Sunset(inner)">Sunset(inner)</option>
-        <option value="Sunset(outer)">Sunset(outer)</option>
-        <option value="Tenderloin">Tenderloin</option>
-        </select>
-        <br>
-        <br>
-        <div id="get-weather" class="button">Get Weather</div>
+        Type in a zipcode: 
+          <input id="zipcode" type="text">
+          <br>
+          <br> 
+        Or choose a neighborhood:
+        <select id="neighborhood">
+          <option></option>
+          <option value="Bayview">Bayview</option>
+          <option value="Bernal Heights">Bernal Heights</option>
+          <option value="Castro">Castro</option>
+          <option value="Haight">Haight</option>
+          <option value="Marina">Marina</option>
+          <option value="Mission">Mission</option>
+          <option value="Nob Hill">Nob Hill</option>
+          <option value="Noe Valley">Noe Valley</option>
+          <option value="NOPA">NOPA</option>
+          <option value="North Beach">North Beach</option>
+          <option value="Pacific Heights">Pacific Heights</option>
+          <option value="Potrero Hill">Potrero Hill</option>
+          <option value="Presidio">Presidio</option>
+          <option value="Richmond(inner)">Richmond(inner)</option>
+          <option value="Richmond(outer)">Richmond(outer)</option>
+          <option value="SOMA">SOMA</option>
+          <option value="Sunset(inner)">Sunset(inner)</option>
+          <option value="Sunset(outer)">Sunset(outer)</option>
+          <option value="Tenderloin">Tenderloin</option>
+          </select>
+          <br>
+          <br>
+          <div id="get-weather" class="button">Get Weather</div>
         
-        <br>
-        <div id="results">
-          
         </div>
+        <div id="results" class="hidden">
+        </div>
+        <a id="back-link" class="hidden" href="#">Back</a>
     </body>
     <footer>
-      <!-- <br>
-      Powered by <a href="http://www.worldweatheronline.com/">World Weather Online</a> -->
+      <br>
+      Powered by <img src="./images/wundergroundLogo_white.png">
     </footer>
 
 </html>

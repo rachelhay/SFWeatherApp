@@ -47,4 +47,7 @@ body {
 
 footer {
   font-size: 12px;
+  position:absolute;
+  bottom:0;
+  height:75px;   /* Height of the footer */
 }
