@@ -7,5 +7,5 @@
       "scripts": ["background.js"]
     }
   },
-  "permissions": ["storage", "webview", "<all_urls>"]
+  "permissions": ["http://api.wunderground.com/api/"]
 }
