@@ -6,5 +6,6 @@
     "background": {
       "scripts": ["background.js"]
     }
-  }
+  },
+  "permissions": ["storage", "webview", "<all_urls>"]
 }
