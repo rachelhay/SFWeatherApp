@@ -51,8 +51,8 @@ $(document).ready(function() {
       var humidity = weatherData.relative_humidity
       var windMPH = weatherData.wind_mph
       
-      var results = "<p>Temp: " + temp + "</p><p>Feels like: " + feelsLike
-      + "</p><p>Description: " + description + "</p><p>Humidity: " + humidity + 
+      var results = "<p>Temp: " + temp + " F</p><p>Feels like: " + feelsLike
+      + " F</p><p>Description: " + description + "</p><p>Humidity: " + humidity + 
       "<p></p>Wind: " + windMPH + "mph</p>";
       
       $("#search").addClass("hidden");
