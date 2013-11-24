@@ -59,7 +59,7 @@ $(document).ready(function() {
       $("#results").removeClass("hidden");
       $('#back-link').removeClass("hidden");
       $("#results").prepend(results);
-      $("#results").prepend("<h3>Search results: " + resultsHeader + "</h3>");      
+      $("#results").prepend("<h3>Weather results: " + resultsHeader + "</h3>");      
     } 
     
     var xhr = new XMLHttpRequest();
