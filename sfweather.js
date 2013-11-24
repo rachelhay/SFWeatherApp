@@ -50,6 +50,7 @@ $(document).ready(function() {
       var description = weatherData.weather
       var humidity = weatherData.relative_humidity
       var windMPH = weatherData.wind_mph
+      var iconUrl = weatherData.icon_url
       
       var results = "<p>Temp: " + temp + " F</p><p>Feels like: " + feelsLike
       + " F</p><p>Description: " + description + "</p><p>Humidity: " + humidity + 
@@ -59,7 +60,7 @@ $(document).ready(function() {
       $("#results").removeClass("hidden");
       $('#back-link').removeClass("hidden");
       $("#results").html(results);
-      $("#results").prepend("<h3>Weather results: " + resultsHeader + "</h3>");      
+      $("#results").prepend("<h3>Weather results: " + resultsHeader + "</h3><webview src=" + iconUrl + "></webview>");      
     } 
     
     var xhr = new XMLHttpRequest();
