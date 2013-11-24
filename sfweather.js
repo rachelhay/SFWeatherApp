@@ -58,7 +58,7 @@ $(document).ready(function() {
       $("#search").addClass("hidden");
       $("#results").removeClass("hidden");
       $('#back-link').removeClass("hidden");
-      $("#results").prepend(results);
+      $("#results").html(results);
       $("#results").prepend("<h3>Weather results: " + resultsHeader + "</h3>");      
     } 
     
@@ -75,7 +75,6 @@ $(document).ready(function() {
   
   $('#back-link').click(function() {
     $("#search").removeClass("hidden");
-    $("#results").empty();
     $("#results").addClass("hidden");
     $('#back-link').addClass("hidden");
   });
