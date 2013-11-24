@@ -1,7 +1,7 @@
 {
   "name": "SF Weather by Neighborhood",
   "description": "Reports current weather for neighborhoods in San Francisco.",
-  "version": "0.1",
+  "version": "0.2",
   "app": {
     "background": {
       "scripts": ["background.js"]
